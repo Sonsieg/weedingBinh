@@ -15,6 +15,8 @@ import {
 } from "./styles";
 import { FaGlassCheers } from "react-icons/fa";
 import { GiLovers, GiForkKnifeSpoon, GiMusicalNotes } from "react-icons/gi";
+import { Background } from "../banner/styles";
+import { address } from "../../../assets/images";
 
 export function Schedule() {
   return (
@@ -23,13 +25,15 @@ export function Schedule() {
         <Title>Chương trình tiệc cưới</Title>
         <Invitation>Mời bạn</Invitation>
         <SubTitle>
-          {'Tới dự bữa cơm thân mật mừng hôn lễ của chúng tớ '}
+          {"Tới dự bữa cơm thân mật mừng hôn lễ của chúng tớ "}
           <br />
           <br />
-          {'tại nhà hàng DUBAI thôn Cúc Thị, xã Kiến Quốc, huyện Ninh Giang, tỉnh Hải Dương '}
+          {
+            "tại nhà hàng DUBAI thôn Cúc Thị, xã Kiến Quốc, huyện Ninh Giang, tỉnh Hải Dương "
+          }
           <br />
           <br />
-          {'(Cửa hàng lương thực cũ)'}
+          <img src={address} alt="Logo" width="200" height="200"/>
         </SubTitle>
         <ScheduleWrapper>
           <EventWrapper>

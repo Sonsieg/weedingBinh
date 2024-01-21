@@ -56,13 +56,17 @@ export function Memory() {
             />
           )}
         </ImageWrapper>
-        <ButtonShowMore>
-          <Button variant="outline-secondary">
-            <Link className="nav-link px-4 py-2" to="/images">
-              Xem thêm...
-            </Link>
-          </Button>
-        </ButtonShowMore>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <button style={{ background:"#910a0a", color:'white', fontSize: 18 }} class="btn btn-default">
+                <Link className="nav-link px-4 py-2" to="/bank_code">
+                  Nhắn gửi yêu thương
+                </Link>
+              </button>
+            </div>
+          </div>
+        </div>
       </Wrapper>
     </SectionWrapper>
   );

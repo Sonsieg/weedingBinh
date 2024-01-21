@@ -22,13 +22,6 @@ function Header() {
             <Link className="nav-link" to="/" style={{ color: colors.main }}>
               Trang chủ
             </Link>
-            <Link
-              className="nav-link"
-              to="/images"
-              style={{ color: colors.main }}
-            >
-              Ảnh
-            </Link>
           </Nav>
           <Link className="navbar-brand" to="/bank_code" style={{ color: colors.main }}>
           Thanh Bình - Thu Hà
