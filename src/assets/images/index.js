@@ -7,5 +7,6 @@ import Ring from "./ring.jpg";
 import Bank from "./bank.jpg";
 import Momo from "./momo.jpg";
 import Logo from "./logo.jpg";
+import background from "./wedding/bg.webp";
 
-export { Bg, BannerBg, AvatarHusband, AvatarWife, DoiChe, Ring, Bank, Momo, Logo };
+export { Bg, BannerBg, AvatarHusband, AvatarWife, DoiChe, Ring, Bank, Momo, Logo, background};

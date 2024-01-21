@@ -33,7 +33,6 @@ export function Memory() {
 
   return (
     <SectionWrapper>
-      <RingBg bg={Ring}></RingBg>
       <Wrapper className="container">
         <Heading>Kỷ niệm của chúng tớ</Heading>
         <Description>
